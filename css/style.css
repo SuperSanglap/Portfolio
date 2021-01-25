@@ -247,7 +247,7 @@ section .title::after{
     color: crimson;
 }
 .about .about-content .right p{
-    text-align: justify;
+    text-align: left;
     padding-right: 15px;
     font-weight: 550;
 }
