@@ -452,7 +452,7 @@ section .title::after{
 .contact .contact-content .left p{
     font-size: 17px;
     font-weight: 550;
-    text-align: justify;
+    text-align: left;
 }
 .contact .contact-content .left .icons {
     margin: 10px 0;
