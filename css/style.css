@@ -496,7 +496,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .contact-content .left a img:hover{
-    max-width: 40px;
+    transform: scale(1.1);
     border: 2px solid orange;
 }
 .contact .right form .fields{
@@ -574,7 +574,7 @@ footer {
     left: 0;
     bottom: 1000;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 75px;
     background: rgb(50, 50, 50);
     padding: 2px;
     color: #fff;
@@ -582,7 +582,7 @@ footer {
 }
 footer span a{
     color: goldenrod;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     transition: all 0.3s ease;
 }
