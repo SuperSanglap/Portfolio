@@ -496,7 +496,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .contact-content .left a img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     border: 2px solid orange;
 }
 .contact .right form .fields{
