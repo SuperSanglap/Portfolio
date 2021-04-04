@@ -357,13 +357,16 @@ section .title::after{
 .skills-content .right .bp::before{
     width: 85%;
 }
+.skills-content .right .unity::before{
+    width: 55%;
+}
 .skills-content .right .dart::before{
     width: 25%;
 }
 .skills-content .right .html::before{
     width: 65%;
 }
-.skills-content .right .css::before{
+.skills-content .right .js::before{
     width: 40%;
 }
 
@@ -496,7 +499,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .contact-content .left a img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     border: 2px solid orange;
 }
 .contact .right form .fields{
@@ -574,7 +577,7 @@ footer {
     left: 0;
     bottom: 1000;
     width: 100%;
-    margin-top: 75px;
+    margin-top: 70px;
     background: rgb(50, 50, 50);
     padding: 2px;
     color: #fff;
@@ -582,7 +585,7 @@ footer {
 }
 footer span a{
     color: goldenrod;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     transition: all 0.3s ease;
 }
