@@ -251,6 +251,9 @@ section .title::after{
     padding-right: 15px;
     font-weight: 550;
 }
+.about .about-content .right a .sl{
+    font-size: 12px;
+}
 .about .about-content .right a{
     display: inline-block;
     background: crimson;
@@ -490,6 +493,11 @@ section .title::after{
     color: crimson;
     font-size: 30px;
 }
+.contact .contact-content .left .fab{
+    font-size: 25px;
+    padding: 5px;
+    color: crimson;
+}
 .contact .contact-content .left a img{
     margin-top: 10px;
     padding: 2px;
@@ -577,7 +585,7 @@ footer {
     left: 0;
     bottom: 1000;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 80px;
     background: rgb(50, 50, 50);
     padding: 2px;
     color: #fff;
@@ -585,7 +593,6 @@ footer {
 }
 footer span a{
     color: goldenrod;
-    font-size: 25px;
     font-weight: 600;
     transition: all 0.3s ease;
 }
@@ -613,9 +620,6 @@ footer span a:hover{
 @media (max-width: 991px){
     .max-width {
         padding-left: 0 50px;
-    }
-    footer span a{
-        font-size: 24px;
     }
 }
 
@@ -691,9 +695,6 @@ footer span a:hover{
     .contact .contact-content .left h2 {
         margin-top: 15px;
     }
-    footer span a{
-        font-size: 22px;
-    }
 }
 
 @media (max-width: 690px) {
@@ -719,9 +720,6 @@ footer span a:hover{
     .skills .skills-content .column {
         width: 100%;
     }
-    footer span a{
-        font-size: 17px;
-    }
 }
 
 @media (max-width: 500px) {
@@ -733,8 +731,5 @@ footer span a:hover{
     }
     .home .home-content .text-3 {
         font-size: 22px;  
-    }
-    footer span a{
-        font-size: 15px;
     }
 }
