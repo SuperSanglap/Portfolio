@@ -732,4 +732,7 @@ footer span a:hover{
     .home .home-content .text-3 {
         font-size: 22px;  
     }
+    .about .about-content .right a{
+        padding: 6px 20px;
+    }
 }
