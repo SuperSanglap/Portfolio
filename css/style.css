@@ -230,7 +230,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     border: 8px solid crimson;
-    border-style: double dotted;
+    border-style: double;
     padding: 10px;
     object-fit: cover;
     border-radius: 50%;
@@ -492,11 +492,6 @@ section .title::after{
     margin-top: 25px;
     color: crimson;
     font-size: 30px;
-}
-.contact .contact-content .left .fab{
-    font-size: 25px;
-    padding: 5px;
-    color: crimson;
 }
 .contact .contact-content .left a img{
     margin-top: 10px;
