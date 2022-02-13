@@ -355,27 +355,24 @@ section .title::after{
     border-radius: 4px;   
 }
 .skills-content .right .python::before{
-    width: 70%;
+    width: 90%;
 }
 .skills-content .right .bp::before{
-    width: 85%;
+    width: 80%;
 }
 .skills-content .right .unity::before{
-    width: 55%;
-}
-.skills-content .right .dart::before{
-    width: 25%;
+    width: 70%;
 }
 .skills-content .right .html::before{
-    width: 65%;
+    width: 80%;
 }
 .skills-content .right .js::before{
-    width: 40%;
+    width: 70%;
 }
 
 /* Projects Section Styling */
 .projects .title::after{
-    content: "what I Made";
+    content: "my Creations";
 }
 .projects .carousel .card {
     background: rgb(50, 50, 50);
@@ -492,6 +489,22 @@ section .title::after{
     margin-top: 25px;
     color: crimson;
     font-size: 30px;
+}
+.contact .contact-content .left .btn{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease; 
+}
+.contact .contact-content .left .btn:hover {
+    color: crimson;
+    background: none;  
 }
 .contact .contact-content .left a img{
     margin-top: 10px;
