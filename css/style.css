@@ -278,7 +278,7 @@ section .title::after{
 .services .title::after,
 .projects .title::after{
     background: #111;
-    content: "My Services"
+    content: "What I Do"
 }
 .services .serv-content .card {
     width: calc(33% - 20px);
@@ -306,6 +306,26 @@ section .title::after{
 }
 .services .serv-content .card:hover .text {
     color: yellow;
+}
+.services .intro {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: white;
+}
+.services .intro a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    padding: 4px 15px;
+    margin: 7px;
+    border-radius: 4px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.services .intro a:hover {
+    color: crimson;
+    background: none;
 }
 
 /* Skills Section Styling */
@@ -373,6 +393,26 @@ section .title::after{
 /* Projects Section Styling */
 .projects .title::after{
     content: "my Creations";
+}
+.projects .intro {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: white;
+}
+.projects .intro a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    padding: 4px 15px;
+    margin: 7px;
+    border-radius: 4px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.projects .intro a:hover {
+    color: crimson;
+    background: none;
 }
 .projects .carousel .card {
     background: rgb(50, 50, 50);
