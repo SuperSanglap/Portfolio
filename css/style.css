@@ -332,7 +332,7 @@ section .title{
 
 /* Projects Section Styling */
 .projects .title::after{
-    content: "my Creations";
+    content: "My Creations";
 }.projects .intro {
     text-align: center;
     font-size: 25px;
