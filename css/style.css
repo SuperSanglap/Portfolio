@@ -328,6 +328,23 @@ section .title{
     width: 80%;
 }.skills-content .right .js::before{
     width: 70%;
+}.skills .applaud {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    color: black;
+}.skills .applaud a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    padding: 4px 15px;
+    margin: 7px;
+    border-radius: 4px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;    
+}.skills .applaud a:hover {
+    color: crimson;
+    background: none;    
 }
 
 /* Projects Section Styling */
@@ -638,9 +655,9 @@ footer {
     }.services .serv-content .card,
     .skills .skills-content .column {
         width: 100%;
-    }.services .intro {
+    }.services .intro, .skills .applaud {
         font-size: 23px;
-    }.services .intro a {
+    }.services .intro a, .skills .applaud a{
         padding: 3px 9px;
         margin: 5px;
     }
@@ -655,9 +672,9 @@ footer {
         font-size: 22px;  
     }.about .about-content .right a{
         padding: 6px 20px;
-    }.services .intro {
+    }.services .intro, .skills .applaud {
         font-size: 19px;
-    }.services .intro a {
+    }.services .intro a, .skills .applaud a {
         padding: 2px 6px;
         margin: 3px;
     }
