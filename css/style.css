@@ -463,24 +463,29 @@ section .title{
     display: inline-block;
     background: crimson;
     color: #fff;
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
     padding: 5px 20px;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 3px;
     border-radius: 4px;
+    max-height: 35px;
     border: 2px solid crimson;
     transition: all 0.3s ease; 
 }.contact .contact-content .left .btn:hover {
     color: crimson;
     background: none;  
-}.contact .contact-content .left a img{
+}.contact .contact-content .left .lined {
+    display: flex;
+    gap: 5px;
+}.contact .contact-content .left .lined a img{
     margin-top: 10px;
     padding: 2px;
     border: 2px solid crimson;
     border-radius: 50%;
     max-width: 35px;
     transition: all 0.3s ease;
-}.contact .contact-content .left a img:hover{
+}.contact .contact-content .left .lined a img:hover{
     transform: scale(1.1);
     border: 2px solid orange;
 }.contact .right form .fields{
