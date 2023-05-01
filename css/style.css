@@ -34,15 +34,13 @@ img{
     align-items: center;
     justify-content: space-between;
 }.navbar .logo a{
-    color: #fff;
+    color: crimson;
     font-size: 35px;
     font-weight: 600;
-}.navbar .logo a span {
-    color: crimson;
-    font-family: 'Lora', sans-serif;
     transition: all 0.3s ease;
-}.navbar.sticky .logo a span {
-    color: yellow;
+}.navbar.sticky .logo a {
+    font-family: 'Lora', sans-serif;
+    color: #fff;
 }.navbar.sticky .menu li a:hover {
     color: yellow;
 }.navbar .menu li {
