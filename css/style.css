@@ -543,6 +543,7 @@ section .title{
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
+    float: right;
 }.contact .right form .button button:hover{
     color: crimson;
     background: none;
