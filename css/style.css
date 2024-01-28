@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    user-select: none;
 }html {
     scroll-behavior: smooth;
 }.max-width {
@@ -202,7 +203,7 @@ section .title{
     height: 400px;
     width: 400px;
     border: 8px solid crimson;
-    border-style: double;
+    border-style: solid;
     padding: 10px;
     object-fit: cover;
     border-radius: 50%;
